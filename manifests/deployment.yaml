@@ -17,3 +17,5 @@ spec:
         image: 866252497011.dkr.ecr.us-east-1.amazonaws.com/ex23-app:latest
         ports:
         - containerPort: 5000
+      imagePullSecrets:
+      - name: ecr-secret
